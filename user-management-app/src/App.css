@@ -13,13 +13,14 @@ form {
 }
 
 .edit{
-  background-color:burlywood;
-  color: blue;
+  background-color:darkseagreen;
+  border-radius: 10px;
 }
 
 .delete{
   background-color: brown;
   color: white;
+  border-radius: 10px;
 }
 
 .user{
@@ -72,10 +73,17 @@ table, th, td {
   border: 1px solid black;
 }
 
+thead{
+  background-color: cadetblue;
+}
+thead th{
+  text-align: center;
+}
 button {
   margin: 5px;
   padding: 5px 10px;
   cursor: pointer;
+  
 }
 
 
